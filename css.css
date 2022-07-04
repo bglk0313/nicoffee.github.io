@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0;
+  padding:0;}
+ li{ list-style:none;}
+ a{ text-decoration:none;
+  color:white;}
+ .nav{ width:100%;
+       height:87px;
+	   background:#282828 ;}
+.nav-l{ width:393px;
+     height:100%;
+	 float:left;
+	 }
+.nav-z{ width:566px;
+  height:100%;
+  float:left;
+  line-height:87px;}
+.nav-z li{ float:left;
+          color:white;
+		  margin-right:80px;
+		  font-size:17px;}
+.nav-r{ width:250px;
+        height:100%;
+		float:right;
+		line-height:87px;}
+.nav-r li{ float:left;
+margin-right:52px;}
+.newmessage{ width:1115px;
+           height:95px;
+		   margin:0 auto;
+		   margin-top:50px;
+		   border-bottom:1px solid gray;}
+.newmessage h1{ text-align:center;}
+.newmessage p{ float:right;
+          width:141px;
+		  height:38px;
+		  background:#D9D9D9;
+		  text-align:center;
+		  line-height:38px; }
+.text{ width:1115px;
+      height:63px;
+	   margin:0 auto;
+	   border-bottom:1px solid gray;
+	   text-align:center;
+	   line-height:63px;}
+.iced{ width:100%;
+  height:553px;
+  background:url(images/14.png);
+  background-size:cover;}
+ .twopoto{ width:1052px;
+        height:319px;
+		margin:0 auto;
+		margin-top:55px;
+		}
+.product{ 
+          width:141px;
+		  height:38px;
+		  background:#D9D9D9;
+		  text-align:center;
+		  line-height:38px;
+		  margin:0 auto; }
+.good{ width:1165px;
+       height:350px;
+	   margin:0 auto;
+	    margin-top:126px;
+		}
+.good-l{ float:left;
+      height:100%;
+	  width:332px;
+	}
+.good-l p{ line-height:55px}
+.good-r{ float:right;
+       width:733px;
+	    height:100%;
+	}
+.footer{ width:100%;
+   height:238px;
+   background:#282828;
+   margin-top:100px;
+   position:relative;}
+  .footer-a{ position:absolute;
+             top:30px;
+			 left:105px;
+			 }
+.footer-a li{ margin-bottom:45px;
+          color:white;}
+.footer-b{ position:absolute;
+           top:30px;
+		   left:300px;}
+.footer-b li{ color:white;
+      margin-bottom:15px;
+	  }
+.footer-c{ position:absolute;
+            bottom:25px;
+			left:680px;}
+.footer-c li{ color:white;
+        margin-bottom:15px;}
+.footer-d{ position:absolute;
+          right:45px;
+		  bottom:25px;
+		  }
+.footer-d li{ float:left;
+         margin-left:45px;}
